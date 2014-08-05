@@ -1,0 +1,145 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family:Arial;
+    background-color:#c0c0c0;
+    text-align:center;
+}
+
+div.wide-column{
+    width:1500px;
+    position:absolute;
+    left:50%;
+    margin-left:-750px;
+
+    -moz-box-shadow:    inset 0 0 10px #000000;
+    -webkit-box-shadow: inset 0 0 10px #000000;
+    box-shadow:         inset 0 0 10px #000000;
+}
+
+div.slim-column{
+    width:900px;
+    margin:0 auto;
+}
+
+div.txt-box{
+    background-color:white;
+    text-align:left;
+}
+
+div.txt-box p{
+    padding:10px 20px;
+    font-size:12px;
+}
+
+div.main-background{
+    background:white url('/images/background.jpg') center top no-repeat;
+}
+
+div.header{
+    text-align:left;
+}
+
+div.header img.logo{
+    margin:25px 0px 0px 75px;
+}
+
+div.header div.nav{
+    padding:10px 20px;
+    margin-top:80px;
+    text-align:left;
+}
+
+div.header div.nav a{
+    font-size:18px;
+    color:black;
+    text-decoration:none;
+    margin-right:20px;
+}
+
+div.header img.overlap-image{
+    float:right;
+    margin-right:300px;
+    margin-top:-175px;
+}
+
+div.header div.view{
+    background:url('/images/view.jpg') center no-repeat;
+    margin:0 auto;
+    width:100%;
+    height:217px;
+}
+
+div.main-content{
+    background:url('/images/content-shadow.png') center repeat-y;
+}
+
+div.footer{
+    position:fixed;
+    width:100%;
+    bottom:0px;
+}
+
+div.footer div.bar{
+    width:100%;
+    height:30px;
+    background-color:#3399ff;
+}
+
+div.footer div.content{
+    padding:5px 20px;
+    color:white;
+    background-color:#c0c0c0;
+    text-align:center;
+    line-height:30px;
+    font-size:10px;
+}
+
+div.footer div.content a{
+    text-decoration:none;
+    color:white;
+}
+
+div.footer .social{
+    margin:0 auto;
+    width:162px;
+    height:44px;
+}
+
+div.footer .social a{
+    width:44px;
+    height:44px;
+    float:left;
+    margin-left:10px;
+}
+
+div.footer .social a span{
+    display:none;
+}
+
+div.footer .social .fb{
+    background-image:url('/images/facebook-icon-idle.png');
+}
+
+div.footer .social .fb:hover{
+    background-image:url('/images/facebook-icon-hover.png');
+}
+
+div.footer .social .tw{
+    background-image:url('/images/twitter-icon-idle.png');
+}
+
+div.footer .social .tw:hover{
+    background-image:url('/images/twitter-icon-hover.png');
+}
+
+div.footer .social .em{
+    background-image:url('/images/email-icon-idle.png');
+}
+
+div.footer .social .em:hover{
+    background-image:url('/images/email-icon-hover.png');
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<application>
+	<path>
+		<url>//www.mapletonview.com.au/</url>
+		<relroot>/</relroot>
+		<root>/</root>
+	</path>
+	<loader>
+		<module>loader</module>
+		<page>loader</page>
+	</loader>
+	<database>Not Setup</database>
+</application>

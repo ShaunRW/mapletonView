@@ -1,0 +1,98 @@
+html,body{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color:#eceff1;
+    font-family: verdana;
+    font-size:12px;
+}
+
+.container{
+    width:100%;
+}
+
+.container .sidebar{
+    position:absolute;
+    left:0;
+    top:0;
+    height:100%;
+    width: 160px;
+    background: #b0bec7;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.9) 0 0 3px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.9) 0 0 3px;
+    box-shadow: rgba(0, 0, 0, 0.9) 0 0 3px;
+}
+
+
+.container .sidebar .bottom{
+    position:absolute;
+    bottom:0;
+}
+
+.container .sidebar div a{
+    background:url('../images/ui/sidebar-item.png') repeat-x;
+    display:block;
+    width:120px;
+    line-height:40px;
+    float:left;
+    color:black;
+    text-decoration:none;
+    vertical-align:middle;
+    padding-left:40px;
+}
+
+.container .sidebar div a.item:hover{
+    background:url('../images/ui/sidebar-item-select.png') repeat-x;
+    color:white;
+}
+
+.container .sidebar div a.item.selected{
+    background:url('../images/ui/sidebar-item-select.png') repeat-x;
+    color:white;
+}
+
+.container .sidebar div a.header{
+    background:url('../images/ui/sidebar-header.png') repeat-x;
+    color:white;
+}
+
+.container .page{
+    background:url('../images/ui/topbar.png') repeat-x;
+    width:100%;
+    height:100%;
+    z-index:10;
+}
+
+.container .page .top{
+    position:absolute;
+    left:160px;
+    top:0;
+    right:0px;
+    line-height:40px;
+    padding-left:55px;
+    font-size:16px;
+}
+
+.container .page .side{
+    position:absolute;
+    background-color:#eceff1;
+    border-right:1px solid #c0c0c2;
+    left:160px;
+    top:40px;
+    bottom:0px;
+    width:50px;
+    text-align:center;
+    padding-top:20px;
+    z-index:-1;
+}
+
+.container .page .content{
+    position:absolute;
+    left:210px;
+    top:40px;
+    right:0;
+    bottom:0;
+    padding:20px 25px;
+}
